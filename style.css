@@ -1,0 +1,47 @@
+body {
+  color: #50413c;
+  font-family: 'Merriweather';
+  font-size: 16px;
+  font-weight: 500;
+  background: #f6f1ed;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+li {
+  list-style: none;
+  line-height: 1.8;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+h1 {
+  color: #30231d;
+  font-family: 'Merriweather Sans';
+  font-size: 66px;
+  letter-spacing: -4px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+sub {
+  margin-top: 40px;
+}
+
+.grid {
+  padding-left: 20%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: minmax(auto, 200px) 1fr;
+  align-items: center;
+}
