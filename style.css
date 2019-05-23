@@ -8,6 +8,10 @@ body {
   padding-right: 3%;
 }
 
+ul {
+  padding-left: 12px;
+}
+
 li {
   list-style: none;
   line-height: 1.8;
@@ -24,10 +28,9 @@ input[type=checkbox] {
 h1 {
   color: #30231d;
   font-family: 'Merriweather Sans';
-  font-size: 66px;
-  letter-spacing: -4px;
-  margin-bottom: 72px;
-  text-align: center;
+  letter-spacing: -2px;
+  font-size: 38px;
+  margin-bottom: 48px;
 }
 
 p {
@@ -38,10 +41,22 @@ sub {
   margin-top: 40px;
 }
 
-.grid {
-  padding-left: 20%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: minmax(auto, 200px) 1fr;
-  align-items: center;
+@media (min-width: 800px) {
+  h1 {
+    font-size: 66px;
+    margin-bottom: 72px;
+    letter-spacing: -4px;
+    text-align: center;
+  }
+  ul {
+    padding-left: 40px;
+  }
+  .grid {
+    padding-left: 20%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: minmax(auto, 200px) 1fr;
+    align-items: center;
+  }
+
 }
