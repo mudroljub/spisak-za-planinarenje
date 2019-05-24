@@ -51,12 +51,16 @@ h2 {
   color: #cc3914;
 }
 
-sub {
-  margin-top: 40px;
+a {
+	color: #cc3914;
 }
 
-.red {
-  color: #cc3914;
+a:hover {
+	color: #50413c;
+}
+
+sub {
+  margin-top: 40px;
 }
 
 @media (min-width: 800px) {
