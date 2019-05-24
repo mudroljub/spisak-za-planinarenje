@@ -1,3 +1,5 @@
+/* http://typespiration.com/design/faded-sunset/ */
+
 body {
   color: #50413c;
   font-family: 'Merriweather';
@@ -33,25 +35,41 @@ h1 {
   margin-bottom: 48px;
 }
 
-p {
-  font-size: 1.2em;
+h1:after {
+	background: #30231d;
+	content: '';
+	display: block;
+	height: 12px;
+	margin: 43px 0;
+	width: 100%;
+}
+
+h2 {
+  font-family: 'Merriweather Sans';
+  letter-spacing: -2px;
+  text-align: center;
+  color: #cc3914;
 }
 
 sub {
   margin-top: 40px;
 }
 
+.red {
+  color: #cc3914;
+}
+
 @media (min-width: 800px) {
   h1 {
     font-size: 66px;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     letter-spacing: -4px;
     text-align: center;
   }
   ul {
     padding-left: 40px;
   }
-  .grid {
+  .spisak {
     padding-left: 20%;
     margin: auto;
     display: grid;
