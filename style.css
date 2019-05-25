@@ -61,6 +61,7 @@ a:hover {
 
 sub {
   margin-top: 40px;
+  grid-column: 2;
 }
 
 @media (min-width: 800px) {
