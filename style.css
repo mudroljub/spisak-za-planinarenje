@@ -27,9 +27,12 @@ input[type=checkbox] {
   transform: scale(1.5);
 }
 
-h1 {
+h1, h2, h3 {
   color: #30231d;
   font-family: 'Merriweather Sans';
+}
+
+h1 {
   letter-spacing: -2px;
   font-size: 38px;
   margin-bottom: 48px;
@@ -44,10 +47,7 @@ h1:after {
 	width: 100%;
 }
 
-h2 {
-  font-family: 'Merriweather Sans';
-  letter-spacing: -2px;
-  text-align: center;
+.red {
   color: #cc3914;
 }
 
@@ -62,6 +62,12 @@ a:hover {
 sub {
   margin-top: 40px;
   grid-column: 2;
+}
+
+h3 .fas,
+h3 .far {
+    /* font-size: 2em;
+    display: block; */
 }
 
 @media (min-width: 800px) {
