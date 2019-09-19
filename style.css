@@ -64,10 +64,9 @@ sub {
   grid-column: 2;
 }
 
-h3 .fas,
-h3 .far {
-    /* font-size: 2em;
-    display: block; */
+.hint {
+  font-size: small;
+  cursor: pointer;
 }
 
 @media (min-width: 800px) {
