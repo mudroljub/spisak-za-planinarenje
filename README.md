@@ -6,4 +6,3 @@ Spisak stvari za planinarenje
 
 - dodati odeljak prirodnjastvo
   - dodati lopaticu, asov ili spaklu
-- izbaciti obrok
